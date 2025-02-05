@@ -1,0 +1,12 @@
+botasaurus==4.0.75
+chrome_extension_python==1.0.1
+gradio==5.15.0
+matplotlib==3.10.0
+nodriver==0.38.post1
+numpy==1.21.5
+Pillow==9.0.1
+Pillow==11.1.0
+Requests==2.32.3
+torch==2.5.0+cpu
+torchvision==0.20.0+cpu
+tqdm==4.66.5
