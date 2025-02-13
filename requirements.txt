@@ -4,7 +4,7 @@ numpy==2.2.2
 pandas==2.2.3
 Pillow==11.1.0
 Requests==2.32.3
-torch==2.6.0
-torchvision==0.21.0
 tqdm==4.67.1
 botasaurus
+onnx
+onnxruntime
