@@ -1,0 +1,432 @@
+2025-02-13 16:23:16,495 - MainThread - INFO - Starting validation for 21 users
+2025-02-13 16:23:16,496 - ThreadPoolExecutor-0_0 - INFO - Starting attempt 1/3
+2025-02-13 16:23:16,496 - ThreadPoolExecutor-0_1 - INFO - Starting attempt 1/3
+2025-02-13 16:23:16,496 - ThreadPoolExecutor-0_2 - INFO - Starting attempt 1/3
+2025-02-13 16:23:49,897 - Thread-3 (listener_loop) - INFO - Websocket connected
+2025-02-13 16:23:49,905 - Thread-1 (listener_loop) - INFO - Websocket connected
+2025-02-13 16:23:53,798 - Thread-7 (listener_loop) - INFO - Websocket connected
+2025-02-13 16:23:53,798 - Thread-5 (listener_loop) - INFO - Websocket connected
+2025-02-13 16:24:00,599 - ThreadPoolExecutor-0_0 - INFO - User 1001527983: initializing -> loading_page 
+2025-02-13 16:24:04,166 - ThreadPoolExecutor-0_1 - INFO - User 1001562295: initializing -> loading_page 
+2025-02-13 16:24:11,510 - Thread-2 (listener_loop) - INFO - Websocket connected
+2025-02-13 16:24:12,710 - Thread-8 (listener_loop) - INFO - Websocket connected
+2025-02-13 16:24:18,049 - ThreadPoolExecutor-0_2 - INFO - User 1001562295: initializing -> loading_page 
+2025-02-13 16:24:31,473 - ThreadPoolExecutor-0_0 - INFO - User 1001527983: loading_page -> page_loaded 
+2025-02-13 16:24:32,831 - ThreadPoolExecutor-0_0 - INFO - User 1001527983: page_loaded -> solving_captcha 
+2025-02-13 16:24:37,298 - ThreadPoolExecutor-0_0 - INFO - CAPTCHA solution attempt: 1846
+2025-02-13 16:24:37,298 - ThreadPoolExecutor-0_0 - INFO - User 1001527983: solving_captcha -> filling_form 
+2025-02-13 16:24:37,647 - ThreadPoolExecutor-0_2 - INFO - User 1001562295: loading_page -> page_loaded 
+2025-02-13 16:24:38,150 - ThreadPoolExecutor-0_2 - INFO - User 1001562295: page_loaded -> solving_captcha 
+2025-02-13 16:24:38,728 - ThreadPoolExecutor-0_2 - INFO - CAPTCHA solution attempt: 3252
+2025-02-13 16:24:38,739 - ThreadPoolExecutor-0_2 - INFO - User 1001562295: solving_captcha -> filling_form 
+2025-02-13 16:24:39,117 - ThreadPoolExecutor-0_0 - INFO - User 1001527983: filling_form -> submitting 
+2025-02-13 16:24:40,784 - ThreadPoolExecutor-0_2 - INFO - User 1001562295: filling_form -> submitting 
+2025-02-13 16:24:41,023 - ThreadPoolExecutor-0_0 - INFO - User 1001527983: submitting -> waiting_response 
+2025-02-13 16:24:41,046 - ThreadPoolExecutor-0_2 - INFO - User 1001562295: submitting -> waiting_response 
+2025-02-13 16:24:41,118 - ThreadPoolExecutor-0_1 - INFO - User 1001562295: loading_page -> page_loaded 
+2025-02-13 16:24:41,719 - ThreadPoolExecutor-0_1 - INFO - User 1001562295: page_loaded -> solving_captcha 
+2025-02-13 16:24:45,253 - ThreadPoolExecutor-0_0 - INFO - User 1001527983: waiting_response -> retry : Authentication Failed: Unexpected header text: <h1 tabindex="0">Reset Password<span id="viewns_Z7_GPHIG0G0LOORC0QS3PEBAI12R7_:form1:ns_Z7_GPHIG0G0LOORC0QS3PEBAI12R7_j_id2"></span></h1>
+2025-02-13 16:24:45,267 - ThreadPoolExecutor-0_0 - INFO - Starting attempt 2/3
+2025-02-13 16:24:45,278 - ThreadPoolExecutor-0_0 - INFO - User 1001527983: retry -> loading_page 
+2025-02-13 16:24:45,575 - ThreadPoolExecutor-0_1 - INFO - CAPTCHA solution attempt: 6021
+2025-02-13 16:24:45,575 - ThreadPoolExecutor-0_1 - INFO - User 1001562295: solving_captcha -> filling_form 
+2025-02-13 16:24:46,154 - ThreadPoolExecutor-0_2 - INFO - User 1001562295: waiting_response -> success : Authentication Successful: Security validation passed
+2025-02-13 16:24:46,813 - ThreadPoolExecutor-0_1 - INFO - User 1001562295: filling_form -> submitting 
+2025-02-13 16:24:46,855 - ThreadPoolExecutor-0_0 - INFO - User 1001527983: loading_page -> page_loaded 
+2025-02-13 16:24:46,896 - ThreadPoolExecutor-0_1 - INFO - User 1001562295: submitting -> waiting_response 
+2025-02-13 16:24:47,475 - ThreadPoolExecutor-0_0 - INFO - User 1001527983: page_loaded -> solving_captcha 
+2025-02-13 16:24:47,983 - ThreadPoolExecutor-0_2 - INFO - Browser session closed
+2025-02-13 16:24:47,984 - ThreadPoolExecutor-0_2 - INFO - Final state: success
+2025-02-13 16:24:47,984 - ThreadPoolExecutor-0_2 - INFO - Starting attempt 1/3
+2025-02-13 16:24:50,834 - ThreadPoolExecutor-0_1 - INFO - User 1001562295: waiting_response -> success : Authentication Successful: Security validation passed
+2025-02-13 16:24:50,964 - ThreadPoolExecutor-0_0 - INFO - CAPTCHA solution attempt: 6010
+2025-02-13 16:24:50,964 - ThreadPoolExecutor-0_0 - INFO - User 1001527983: solving_captcha -> filling_form 
+2025-02-13 16:24:51,501 - ThreadPoolExecutor-0_0 - INFO - User 1001527983: filling_form -> submitting 
+2025-02-13 16:24:51,519 - ThreadPoolExecutor-0_0 - INFO - User 1001527983: submitting -> waiting_response 
+2025-02-13 16:24:52,452 - Thread-9 (listener_loop) - INFO - Websocket connected
+2025-02-13 16:24:52,642 - Thread-10 (listener_loop) - INFO - Websocket connected
+2025-02-13 16:24:53,050 - ThreadPoolExecutor-0_2 - INFO - User 1001629698: initializing -> loading_page 
+2025-02-13 16:24:53,474 - ThreadPoolExecutor-0_1 - INFO - Browser session closed
+2025-02-13 16:24:53,474 - ThreadPoolExecutor-0_1 - INFO - Final state: success
+2025-02-13 16:24:53,474 - ThreadPoolExecutor-0_1 - INFO - Starting attempt 1/3
+2025-02-13 16:24:54,332 - Thread-11 (listener_loop) - INFO - Websocket connected
+2025-02-13 16:24:54,391 - Thread-12 (listener_loop) - INFO - Websocket connected
+2025-02-13 16:24:54,790 - ThreadPoolExecutor-0_1 - INFO - User 1003401146: initializing -> loading_page 
+2025-02-13 16:24:56,026 - ThreadPoolExecutor-0_0 - INFO - User 1001527983: waiting_response -> success : Authentication Successful: Security validation passed
+2025-02-13 16:25:01,134 - ThreadPoolExecutor-0_0 - INFO - Browser session closed
+2025-02-13 16:25:01,134 - ThreadPoolExecutor-0_0 - INFO - Final state: success
+2025-02-13 16:25:01,134 - ThreadPoolExecutor-0_0 - INFO - Starting attempt 1/3
+2025-02-13 16:25:01,806 - ThreadPoolExecutor-0_2 - INFO - User 1001629698: loading_page -> page_loaded 
+2025-02-13 16:25:02,161 - Thread-13 (listener_loop) - INFO - Websocket connected
+2025-02-13 16:25:02,343 - Thread-14 (listener_loop) - INFO - Websocket connected
+2025-02-13 16:25:02,644 - ThreadPoolExecutor-0_2 - INFO - User 1001629698: page_loaded -> solving_captcha 
+2025-02-13 16:25:02,742 - ThreadPoolExecutor-0_0 - INFO - User 1004611800: initializing -> loading_page 
+2025-02-13 16:25:02,878 - ThreadPoolExecutor-0_1 - INFO - User 1003401146: loading_page -> page_loaded 
+2025-02-13 16:25:03,401 - ThreadPoolExecutor-0_1 - INFO - User 1003401146: page_loaded -> solving_captcha 
+2025-02-13 16:25:06,725 - ThreadPoolExecutor-0_2 - INFO - CAPTCHA solution attempt: 8468
+2025-02-13 16:25:06,726 - ThreadPoolExecutor-0_2 - INFO - User 1001629698: solving_captcha -> filling_form 
+2025-02-13 16:25:07,296 - ThreadPoolExecutor-0_2 - INFO - User 1001629698: filling_form -> submitting 
+2025-02-13 16:25:07,323 - ThreadPoolExecutor-0_2 - INFO - User 1001629698: submitting -> waiting_response 
+2025-02-13 16:25:07,529 - ThreadPoolExecutor-0_1 - INFO - CAPTCHA solution attempt: 5445
+2025-02-13 16:25:07,529 - ThreadPoolExecutor-0_1 - INFO - User 1003401146: solving_captcha -> filling_form 
+2025-02-13 16:25:08,164 - ThreadPoolExecutor-0_1 - INFO - User 1003401146: filling_form -> submitting 
+2025-02-13 16:25:08,184 - ThreadPoolExecutor-0_1 - INFO - User 1003401146: submitting -> waiting_response 
+2025-02-13 16:25:11,708 - ThreadPoolExecutor-0_0 - INFO - User 1004611800: loading_page -> page_loaded 
+2025-02-13 16:25:11,959 - ThreadPoolExecutor-0_2 - INFO - User 1001629698: waiting_response -> success : Authentication Successful: Security validation passed
+2025-02-13 16:25:12,612 - ThreadPoolExecutor-0_0 - INFO - User 1004611800: page_loaded -> solving_captcha 
+2025-02-13 16:25:13,083 - ThreadPoolExecutor-0_0 - INFO - CAPTCHA solution attempt: 4533
+2025-02-13 16:25:13,084 - ThreadPoolExecutor-0_0 - INFO - User 1004611800: solving_captcha -> filling_form 
+2025-02-13 16:25:13,443 - ThreadPoolExecutor-0_1 - INFO - User 1003401146: waiting_response -> success : Authentication Successful: Security validation passed
+2025-02-13 16:25:13,752 - ThreadPoolExecutor-0_0 - INFO - User 1004611800: filling_form -> submitting 
+2025-02-13 16:25:13,776 - ThreadPoolExecutor-0_0 - INFO - User 1004611800: submitting -> waiting_response 
+2025-02-13 16:25:16,334 - ThreadPoolExecutor-0_2 - INFO - Browser session closed
+2025-02-13 16:25:16,334 - ThreadPoolExecutor-0_2 - INFO - Final state: success
+2025-02-13 16:25:16,335 - ThreadPoolExecutor-0_2 - INFO - Starting attempt 1/3
+2025-02-13 16:25:17,332 - Thread-15 (listener_loop) - INFO - Websocket connected
+2025-02-13 16:25:17,433 - Thread-16 (listener_loop) - INFO - Websocket connected
+2025-02-13 16:25:17,854 - ThreadPoolExecutor-0_2 - INFO - User 1007459686: initializing -> loading_page 
+2025-02-13 16:25:18,643 - ThreadPoolExecutor-0_1 - INFO - Browser session closed
+2025-02-13 16:25:18,643 - ThreadPoolExecutor-0_1 - INFO - Final state: success
+2025-02-13 16:25:18,643 - ThreadPoolExecutor-0_1 - INFO - Starting attempt 1/3
+2025-02-13 16:25:18,944 - ThreadPoolExecutor-0_0 - INFO - User 1004611800: waiting_response -> success : Authentication Successful: Security validation passed
+2025-02-13 16:25:19,567 - Thread-17 (listener_loop) - INFO - Websocket connected
+2025-02-13 16:25:19,631 - Thread-18 (listener_loop) - INFO - Websocket connected
+2025-02-13 16:25:20,010 - ThreadPoolExecutor-0_1 - INFO - User 1005099120: initializing -> loading_page 
+2025-02-13 16:25:21,346 - ThreadPoolExecutor-0_0 - INFO - Browser session closed
+2025-02-13 16:25:21,346 - ThreadPoolExecutor-0_0 - INFO - Final state: success
+2025-02-13 16:25:21,346 - ThreadPoolExecutor-0_0 - INFO - Starting attempt 1/3
+2025-02-13 16:25:22,207 - Thread-19 (listener_loop) - INFO - Websocket connected
+2025-02-13 16:25:22,267 - Thread-20 (listener_loop) - INFO - Websocket connected
+2025-02-13 16:25:22,652 - ThreadPoolExecutor-0_0 - INFO - User 1006658601: initializing -> loading_page 
+2025-02-13 16:25:28,974 - ThreadPoolExecutor-0_2 - INFO - User 1007459686: loading_page -> page_loaded 
+2025-02-13 16:25:29,592 - ThreadPoolExecutor-0_2 - INFO - User 1007459686: page_loaded -> solving_captcha 
+2025-02-13 16:25:30,621 - ThreadPoolExecutor-0_1 - INFO - User 1005099120: loading_page -> page_loaded 
+2025-02-13 16:25:31,047 - ThreadPoolExecutor-0_0 - INFO - User 1006658601: loading_page -> page_loaded 
+2025-02-13 16:25:31,433 - ThreadPoolExecutor-0_1 - INFO - User 1005099120: page_loaded -> solving_captcha 
+2025-02-13 16:25:31,873 - ThreadPoolExecutor-0_0 - INFO - User 1006658601: page_loaded -> solving_captcha 
+2025-02-13 16:25:32,222 - ThreadPoolExecutor-0_0 - INFO - CAPTCHA solution attempt: 5479
+2025-02-13 16:25:32,222 - ThreadPoolExecutor-0_0 - INFO - User 1006658601: solving_captcha -> filling_form 
+2025-02-13 16:25:32,756 - ThreadPoolExecutor-0_0 - INFO - User 1006658601: filling_form -> submitting 
+2025-02-13 16:25:32,779 - ThreadPoolExecutor-0_0 - INFO - User 1006658601: submitting -> waiting_response 
+2025-02-13 16:25:33,852 - ThreadPoolExecutor-0_2 - INFO - CAPTCHA solution attempt: 3664
+2025-02-13 16:25:33,852 - ThreadPoolExecutor-0_2 - INFO - User 1007459686: solving_captcha -> filling_form 
+2025-02-13 16:25:34,595 - ThreadPoolExecutor-0_2 - INFO - User 1007459686: filling_form -> submitting 
+2025-02-13 16:25:34,615 - ThreadPoolExecutor-0_2 - INFO - User 1007459686: submitting -> waiting_response 
+2025-02-13 16:25:35,516 - ThreadPoolExecutor-0_1 - INFO - CAPTCHA solution attempt: 3308
+2025-02-13 16:25:35,516 - ThreadPoolExecutor-0_1 - INFO - User 1005099120: solving_captcha -> filling_form 
+2025-02-13 16:25:36,199 - ThreadPoolExecutor-0_1 - INFO - User 1005099120: filling_form -> submitting 
+2025-02-13 16:25:36,219 - ThreadPoolExecutor-0_1 - INFO - User 1005099120: submitting -> waiting_response 
+2025-02-13 16:25:37,751 - ThreadPoolExecutor-0_0 - INFO - User 1006658601: waiting_response -> retry : Authentication Failed: Sorry, the registered number is not activated please visit Absher self-service kiosk device or through the General Directorate of Passport or Civil affairs offices .
+2025-02-13 16:25:37,753 - ThreadPoolExecutor-0_0 - INFO - Starting attempt 2/3
+2025-02-13 16:25:37,753 - ThreadPoolExecutor-0_0 - INFO - User 1006658601: retry -> loading_page 
+2025-02-13 16:25:39,754 - ThreadPoolExecutor-0_0 - INFO - User 1006658601: loading_page -> page_loaded 
+2025-02-13 16:25:40,921 - ThreadPoolExecutor-0_0 - INFO - User 1006658601: page_loaded -> solving_captcha 
+2025-02-13 16:25:40,940 - ThreadPoolExecutor-0_1 - INFO - User 1005099120: waiting_response -> retry : Authentication Failed: Sorry, the registered number is not activated please visit Absher self-service kiosk device or through the General Directorate of Passport or Civil affairs offices .
+2025-02-13 16:25:41,012 - ThreadPoolExecutor-0_1 - INFO - Starting attempt 2/3
+2025-02-13 16:25:41,012 - ThreadPoolExecutor-0_1 - INFO - User 1005099120: retry -> loading_page 
+2025-02-13 16:25:41,032 - ThreadPoolExecutor-0_2 - INFO - User 1007459686: waiting_response -> success : Authentication Successful: Security validation passed
+2025-02-13 16:25:41,393 - ThreadPoolExecutor-0_0 - INFO - CAPTCHA solution attempt: 4290
+2025-02-13 16:25:41,393 - ThreadPoolExecutor-0_0 - INFO - User 1006658601: solving_captcha -> filling_form 
+2025-02-13 16:25:42,058 - ThreadPoolExecutor-0_0 - INFO - User 1006658601: filling_form -> submitting 
+2025-02-13 16:25:42,078 - ThreadPoolExecutor-0_0 - INFO - User 1006658601: submitting -> waiting_response 
+2025-02-13 16:25:42,839 - ThreadPoolExecutor-0_1 - INFO - User 1005099120: loading_page -> page_loaded 
+2025-02-13 16:25:43,886 - ThreadPoolExecutor-0_1 - INFO - User 1005099120: page_loaded -> solving_captcha 
+2025-02-13 16:25:45,309 - ThreadPoolExecutor-0_2 - INFO - Browser session closed
+2025-02-13 16:25:45,309 - ThreadPoolExecutor-0_2 - INFO - Final state: success
+2025-02-13 16:25:45,310 - ThreadPoolExecutor-0_2 - INFO - Starting attempt 1/3
+2025-02-13 16:25:45,893 - ThreadPoolExecutor-0_0 - INFO - User 1006658601: waiting_response -> retry : Authentication Failed: Sorry, the registered number is not activated please visit Absher self-service kiosk device or through the General Directorate of Passport or Civil affairs offices .
+2025-02-13 16:25:45,899 - ThreadPoolExecutor-0_0 - INFO - Starting attempt 3/3
+2025-02-13 16:25:45,899 - ThreadPoolExecutor-0_0 - INFO - User 1006658601: retry -> loading_page 
+2025-02-13 16:25:46,886 - Thread-21 (listener_loop) - INFO - Websocket connected
+2025-02-13 16:25:47,006 - Thread-22 (listener_loop) - INFO - Websocket connected
+2025-02-13 16:25:47,408 - ThreadPoolExecutor-0_2 - INFO - User 1015252560: initializing -> loading_page 
+2025-02-13 16:25:47,663 - ThreadPoolExecutor-0_0 - INFO - User 1006658601: loading_page -> page_loaded 
+2025-02-13 16:25:48,247 - ThreadPoolExecutor-0_0 - INFO - User 1006658601: page_loaded -> solving_captcha 
+2025-02-13 16:25:48,551 - ThreadPoolExecutor-0_1 - INFO - CAPTCHA solution attempt: 5728
+2025-02-13 16:25:48,551 - ThreadPoolExecutor-0_1 - INFO - User 1005099120: solving_captcha -> filling_form 
+2025-02-13 16:25:49,041 - ThreadPoolExecutor-0_1 - INFO - User 1005099120: filling_form -> submitting 
+2025-02-13 16:25:49,059 - ThreadPoolExecutor-0_1 - INFO - User 1005099120: submitting -> waiting_response 
+2025-02-13 16:25:53,291 - ThreadPoolExecutor-0_0 - INFO - CAPTCHA solution attempt: 1132
+2025-02-13 16:25:53,291 - ThreadPoolExecutor-0_0 - INFO - User 1006658601: solving_captcha -> filling_form 
+2025-02-13 16:25:53,916 - ThreadPoolExecutor-0_0 - INFO - User 1006658601: filling_form -> submitting 
+2025-02-13 16:25:54,063 - ThreadPoolExecutor-0_0 - INFO - User 1006658601: submitting -> waiting_response 
+2025-02-13 16:25:54,072 - ThreadPoolExecutor-0_1 - INFO - User 1005099120: waiting_response -> retry : Authentication Failed: Sorry, the registered number is not activated please visit Absher self-service kiosk device or through the General Directorate of Passport or Civil affairs offices .
+2025-02-13 16:25:54,082 - ThreadPoolExecutor-0_1 - INFO - Starting attempt 3/3
+2025-02-13 16:25:54,087 - ThreadPoolExecutor-0_1 - INFO - User 1005099120: retry -> loading_page 
+2025-02-13 16:25:55,147 - ThreadPoolExecutor-0_2 - INFO - User 1015252560: loading_page -> page_loaded 
+2025-02-13 16:25:55,632 - ThreadPoolExecutor-0_1 - INFO - User 1005099120: loading_page -> page_loaded 
+2025-02-13 16:25:55,695 - ThreadPoolExecutor-0_2 - INFO - User 1015252560: page_loaded -> solving_captcha 
+2025-02-13 16:25:56,315 - ThreadPoolExecutor-0_2 - INFO - CAPTCHA solution attempt: 6855
+2025-02-13 16:25:56,316 - ThreadPoolExecutor-0_2 - INFO - User 1015252560: solving_captcha -> filling_form 
+2025-02-13 16:25:57,018 - ThreadPoolExecutor-0_1 - INFO - User 1005099120: page_loaded -> solving_captcha 
+2025-02-13 16:25:57,451 - ThreadPoolExecutor-0_2 - INFO - User 1015252560: filling_form -> submitting 
+2025-02-13 16:25:57,496 - ThreadPoolExecutor-0_2 - INFO - User 1015252560: submitting -> waiting_response 
+2025-02-13 16:25:58,551 - ThreadPoolExecutor-0_0 - INFO - User 1006658601: waiting_response -> failed : Authentication Failed: Sorry, the registered number is not activated please visit Absher self-service kiosk device or through the General Directorate of Passport or Civil affairs offices .
+2025-02-13 16:26:00,587 - ThreadPoolExecutor-0_1 - INFO - CAPTCHA solution attempt: 9164
+2025-02-13 16:26:00,587 - ThreadPoolExecutor-0_1 - INFO - User 1005099120: solving_captcha -> filling_form 
+2025-02-13 16:26:01,444 - ThreadPoolExecutor-0_1 - INFO - User 1005099120: filling_form -> submitting 
+2025-02-13 16:26:01,581 - ThreadPoolExecutor-0_1 - INFO - User 1005099120: submitting -> waiting_response 
+2025-02-13 16:26:02,977 - ThreadPoolExecutor-0_2 - INFO - User 1015252560: waiting_response -> success : Authentication Successful: Security validation passed
+2025-02-13 16:26:03,341 - ThreadPoolExecutor-0_0 - INFO - Browser session closed
+2025-02-13 16:26:03,348 - ThreadPoolExecutor-0_0 - INFO - Final state: failed
+2025-02-13 16:26:03,348 - ThreadPoolExecutor-0_0 - INFO - Starting attempt 1/3
+2025-02-13 16:26:04,378 - ThreadPoolExecutor-0_2 - INFO - Browser session closed
+2025-02-13 16:26:04,378 - ThreadPoolExecutor-0_2 - INFO - Final state: success
+2025-02-13 16:26:04,379 - ThreadPoolExecutor-0_2 - INFO - Starting attempt 1/3
+2025-02-13 16:26:04,739 - Thread-23 (listener_loop) - INFO - Websocket connected
+2025-02-13 16:26:04,839 - Thread-25 (listener_loop) - INFO - Websocket connected
+2025-02-13 16:26:05,267 - ThreadPoolExecutor-0_0 - INFO - User 1015252560: initializing -> loading_page 
+2025-02-13 16:26:05,577 - Thread-26 (listener_loop) - INFO - Websocket connected
+2025-02-13 16:26:05,645 - Thread-27 (listener_loop) - INFO - Websocket connected
+2025-02-13 16:26:05,940 - ThreadPoolExecutor-0_1 - INFO - User 1005099120: waiting_response -> failed : Authentication Failed: Sorry, the registered number is not activated please visit Absher self-service kiosk device or through the General Directorate of Passport or Civil affairs offices .
+2025-02-13 16:26:06,037 - ThreadPoolExecutor-0_2 - INFO - User 1015252560: initializing -> loading_page 
+2025-02-13 16:26:08,836 - ThreadPoolExecutor-0_1 - INFO - Browser session closed
+2025-02-13 16:26:08,836 - ThreadPoolExecutor-0_1 - INFO - Final state: failed
+2025-02-13 16:26:08,836 - ThreadPoolExecutor-0_1 - INFO - Starting attempt 1/3
+2025-02-13 16:26:09,570 - Thread-28 (listener_loop) - INFO - Websocket connected
+2025-02-13 16:26:09,609 - Thread-29 (listener_loop) - INFO - Websocket connected
+2025-02-13 16:26:10,044 - ThreadPoolExecutor-0_1 - INFO - User 1026200616: initializing -> loading_page 
+2025-02-13 16:26:13,760 - ThreadPoolExecutor-0_1 - INFO - User 1026200616: loading_page -> page_loaded 
+2025-02-13 16:26:16,472 - ThreadPoolExecutor-0_2 - INFO - User 1015252560: loading_page -> page_loaded 
+2025-02-13 16:26:16,555 - ThreadPoolExecutor-0_0 - INFO - User 1015252560: loading_page -> page_loaded 
+2025-02-13 16:26:17,517 - ThreadPoolExecutor-0_0 - INFO - User 1015252560: page_loaded -> solving_captcha 
+2025-02-13 16:26:17,567 - ThreadPoolExecutor-0_2 - INFO - User 1015252560: page_loaded -> solving_captcha 
+2025-02-13 16:26:20,982 - ThreadPoolExecutor-0_2 - INFO - CAPTCHA solution attempt: 8898
+2025-02-13 16:26:20,983 - ThreadPoolExecutor-0_2 - INFO - User 1015252560: solving_captcha -> filling_form 
+2025-02-13 16:26:21,579 - ThreadPoolExecutor-0_2 - INFO - User 1015252560: filling_form -> submitting 
+2025-02-13 16:26:21,597 - ThreadPoolExecutor-0_0 - INFO - CAPTCHA solution attempt: 2840
+2025-02-13 16:26:21,597 - ThreadPoolExecutor-0_0 - INFO - User 1015252560: solving_captcha -> filling_form 
+2025-02-13 16:26:21,624 - ThreadPoolExecutor-0_2 - INFO - User 1015252560: submitting -> waiting_response 
+2025-02-13 16:26:22,442 - ThreadPoolExecutor-0_0 - INFO - User 1015252560: filling_form -> submitting 
+2025-02-13 16:26:22,462 - ThreadPoolExecutor-0_0 - INFO - User 1015252560: submitting -> waiting_response 
+2025-02-13 16:26:26,427 - ThreadPoolExecutor-0_2 - INFO - User 1015252560: waiting_response -> success : Authentication Successful: Security validation passed
+2025-02-13 16:26:27,566 - ThreadPoolExecutor-0_0 - INFO - User 1015252560: waiting_response -> success : Authentication Successful: Security validation passed
+2025-02-13 16:26:30,298 - ThreadPoolExecutor-0_2 - INFO - Browser session closed
+2025-02-13 16:26:30,298 - ThreadPoolExecutor-0_2 - INFO - Final state: success
+2025-02-13 16:26:30,298 - ThreadPoolExecutor-0_2 - INFO - Starting attempt 1/3
+2025-02-13 16:26:31,007 - Thread-30 (listener_loop) - INFO - Websocket connected
+2025-02-13 16:26:31,072 - Thread-31 (listener_loop) - INFO - Websocket connected
+2025-02-13 16:26:31,472 - ThreadPoolExecutor-0_2 - INFO - User 1057099671: initializing -> loading_page 
+2025-02-13 16:26:32,122 - ThreadPoolExecutor-0_0 - INFO - Browser session closed
+2025-02-13 16:26:32,122 - ThreadPoolExecutor-0_0 - INFO - Final state: success
+2025-02-13 16:26:32,122 - ThreadPoolExecutor-0_0 - INFO - Starting attempt 1/3
+2025-02-13 16:26:32,860 - Thread-32 (listener_loop) - INFO - Websocket connected
+2025-02-13 16:26:32,962 - Thread-33 (listener_loop) - INFO - Websocket connected
+2025-02-13 16:26:33,344 - ThreadPoolExecutor-0_0 - INFO - User 1057099671: initializing -> loading_page 
+2025-02-13 16:26:40,102 - ThreadPoolExecutor-0_2 - INFO - User 1057099671: loading_page -> page_loaded 
+2025-02-13 16:26:40,625 - ThreadPoolExecutor-0_2 - INFO - User 1057099671: page_loaded -> solving_captcha 
+2025-02-13 16:26:41,544 - ThreadPoolExecutor-0_0 - INFO - User 1057099671: loading_page -> page_loaded 
+2025-02-13 16:26:42,047 - ThreadPoolExecutor-0_0 - INFO - User 1057099671: page_loaded -> solving_captcha 
+2025-02-13 16:26:42,450 - ThreadPoolExecutor-0_0 - INFO - CAPTCHA solution attempt: 5822
+2025-02-13 16:26:42,451 - ThreadPoolExecutor-0_0 - INFO - User 1057099671: solving_captcha -> filling_form 
+2025-02-13 16:26:42,845 - ThreadPoolExecutor-0_0 - INFO - User 1057099671: filling_form -> submitting 
+2025-02-13 16:26:42,866 - ThreadPoolExecutor-0_0 - INFO - User 1057099671: submitting -> waiting_response 
+2025-02-13 16:26:44,236 - ThreadPoolExecutor-0_2 - INFO - CAPTCHA solution attempt: 9488
+2025-02-13 16:26:44,236 - ThreadPoolExecutor-0_2 - INFO - User 1057099671: solving_captcha -> filling_form 
+2025-02-13 16:26:44,958 - ThreadPoolExecutor-0_2 - INFO - User 1057099671: filling_form -> submitting 
+2025-02-13 16:26:45,050 - ThreadPoolExecutor-0_2 - INFO - User 1057099671: submitting -> waiting_response 
+2025-02-13 16:26:48,042 - ThreadPoolExecutor-0_0 - INFO - User 1057099671: waiting_response -> success : Authentication Successful: Security validation passed
+2025-02-13 16:26:48,340 - ThreadPoolExecutor-0_2 - INFO - User 1057099671: waiting_response -> retry : Authentication Failed: Unexpected header text: <h1 tabindex="0">Reset Password<span id="viewns_Z7_GPHIG0G0LOORC0QS3PEBAI12R7_:form1:ns_Z7_GPHIG0G0LOORC0QS3PEBAI12R7_j_id2"></span></h1>
+2025-02-13 16:26:48,344 - ThreadPoolExecutor-0_2 - INFO - Starting attempt 2/3
+2025-02-13 16:26:48,344 - ThreadPoolExecutor-0_2 - INFO - User 1057099671: retry -> loading_page 
+2025-02-13 16:26:49,409 - ThreadPoolExecutor-0_0 - INFO - Browser session closed
+2025-02-13 16:26:49,409 - ThreadPoolExecutor-0_0 - INFO - Final state: success
+2025-02-13 16:26:49,409 - ThreadPoolExecutor-0_0 - INFO - Starting attempt 1/3
+2025-02-13 16:26:50,171 - ThreadPoolExecutor-0_2 - INFO - User 1057099671: loading_page -> page_loaded 
+2025-02-13 16:26:50,284 - Thread-34 (listener_loop) - INFO - Websocket connected
+2025-02-13 16:26:50,383 - Thread-35 (listener_loop) - INFO - Websocket connected
+2025-02-13 16:26:50,978 - ThreadPoolExecutor-0_0 - INFO - User 1057425736: initializing -> loading_page 
+2025-02-13 16:26:51,047 - ThreadPoolExecutor-0_2 - INFO - User 1057099671: page_loaded -> solving_captcha 
+2025-02-13 16:26:54,354 - ThreadPoolExecutor-0_2 - INFO - CAPTCHA solution attempt: 3335
+2025-02-13 16:26:54,354 - ThreadPoolExecutor-0_2 - INFO - User 1057099671: solving_captcha -> filling_form 
+2025-02-13 16:26:54,936 - ThreadPoolExecutor-0_2 - INFO - User 1057099671: filling_form -> submitting 
+2025-02-13 16:26:54,956 - ThreadPoolExecutor-0_2 - INFO - User 1057099671: submitting -> waiting_response 
+2025-02-13 16:26:59,145 - ThreadPoolExecutor-0_0 - INFO - User 1057425736: loading_page -> page_loaded 
+2025-02-13 16:26:59,152 - ThreadPoolExecutor-0_2 - INFO - User 1057099671: waiting_response -> retry : Authentication Failed: Sorry, the registered number is not activated please visit Absher self-service kiosk device or through the General Directorate of Passport or Civil affairs offices .
+2025-02-13 16:26:59,156 - ThreadPoolExecutor-0_2 - INFO - Starting attempt 3/3
+2025-02-13 16:26:59,157 - ThreadPoolExecutor-0_2 - INFO - User 1057099671: retry -> loading_page 
+2025-02-13 16:26:59,612 - ThreadPoolExecutor-0_0 - INFO - User 1057425736: page_loaded -> solving_captcha 
+2025-02-13 16:26:59,970 - ThreadPoolExecutor-0_0 - INFO - CAPTCHA solution attempt: 8706
+2025-02-13 16:26:59,971 - ThreadPoolExecutor-0_0 - INFO - User 1057425736: solving_captcha -> filling_form 
+2025-02-13 16:27:00,437 - ThreadPoolExecutor-0_0 - INFO - User 1057425736: filling_form -> submitting 
+2025-02-13 16:27:00,468 - ThreadPoolExecutor-0_0 - INFO - User 1057425736: submitting -> waiting_response 
+2025-02-13 16:27:00,653 - ThreadPoolExecutor-0_2 - INFO - User 1057099671: loading_page -> page_loaded 
+2025-02-13 16:27:01,259 - ThreadPoolExecutor-0_2 - INFO - User 1057099671: page_loaded -> solving_captcha 
+2025-02-13 16:27:04,143 - ThreadPoolExecutor-0_0 - INFO - User 1057425736: waiting_response -> retry : Authentication Failed: Sorry, the registered number is not activated please visit Absher self-service kiosk device or through the General Directorate of Passport or Civil affairs offices .
+2025-02-13 16:27:04,147 - ThreadPoolExecutor-0_0 - INFO - Starting attempt 2/3
+2025-02-13 16:27:04,147 - ThreadPoolExecutor-0_0 - INFO - User 1057425736: retry -> loading_page 
+2025-02-13 16:27:05,384 - ThreadPoolExecutor-0_2 - INFO - CAPTCHA solution attempt: 5116
+2025-02-13 16:27:05,385 - ThreadPoolExecutor-0_2 - INFO - User 1057099671: solving_captcha -> filling_form 
+2025-02-13 16:27:05,764 - ThreadPoolExecutor-0_1 - INFO - User 1026200616: page_loaded -> solving_captcha 
+2025-02-13 16:27:05,764 - ThreadPoolExecutor-0_1 - ERROR - Error during attempt 1: 'NoneType' object has no attribute 'save_screenshot'
+2025-02-13 16:27:05,765 - ThreadPoolExecutor-0_1 - INFO - User 1026200616: solving_captcha -> retry : Will retry after cooldown
+2025-02-13 16:27:05,939 - ThreadPoolExecutor-0_2 - INFO - User 1057099671: filling_form -> submitting 
+2025-02-13 16:27:05,956 - ThreadPoolExecutor-0_2 - INFO - User 1057099671: submitting -> waiting_response 
+2025-02-13 16:27:07,650 - ThreadPoolExecutor-0_0 - INFO - User 1057425736: loading_page -> page_loaded 
+2025-02-13 16:27:07,955 - ThreadPoolExecutor-0_1 - INFO - Starting attempt 2/3
+2025-02-13 16:27:07,960 - ThreadPoolExecutor-0_1 - INFO - User 1026200616: retry -> loading_page 
+2025-02-13 16:27:08,660 - ThreadPoolExecutor-0_0 - INFO - User 1057425736: page_loaded -> solving_captcha 
+2025-02-13 16:27:09,008 - ThreadPoolExecutor-0_0 - INFO - CAPTCHA solution attempt: 4146
+2025-02-13 16:27:09,010 - ThreadPoolExecutor-0_0 - INFO - User 1057425736: solving_captcha -> filling_form 
+2025-02-13 16:27:09,694 - ThreadPoolExecutor-0_0 - INFO - User 1057425736: filling_form -> submitting 
+2025-02-13 16:27:09,810 - ThreadPoolExecutor-0_0 - INFO - User 1057425736: submitting -> waiting_response 
+2025-02-13 16:27:10,583 - ThreadPoolExecutor-0_2 - INFO - User 1057099671: waiting_response -> failed : Authentication Failed: Sorry, the registered number is not activated please visit Absher self-service kiosk device or through the General Directorate of Passport or Civil affairs offices .
+2025-02-13 16:27:13,717 - ThreadPoolExecutor-0_0 - INFO - User 1057425736: waiting_response -> retry : Authentication Failed: Sorry, the registered number is not activated please visit Absher self-service kiosk device or through the General Directorate of Passport or Civil affairs offices .
+2025-02-13 16:27:13,721 - ThreadPoolExecutor-0_0 - INFO - Starting attempt 3/3
+2025-02-13 16:27:13,722 - ThreadPoolExecutor-0_0 - INFO - User 1057425736: retry -> loading_page 
+2025-02-13 16:27:14,028 - ThreadPoolExecutor-0_1 - INFO - User 1026200616: loading_page -> page_loaded 
+2025-02-13 16:27:14,627 - ThreadPoolExecutor-0_1 - INFO - User 1026200616: page_loaded -> solving_captcha 
+2025-02-13 16:27:14,918 - ThreadPoolExecutor-0_2 - INFO - Browser session closed
+2025-02-13 16:27:14,918 - ThreadPoolExecutor-0_2 - INFO - Final state: failed
+2025-02-13 16:27:14,918 - ThreadPoolExecutor-0_2 - INFO - Starting attempt 1/3
+2025-02-13 16:27:15,538 - ThreadPoolExecutor-0_0 - INFO - User 1057425736: loading_page -> page_loaded 
+2025-02-13 16:27:15,849 - Thread-36 (listener_loop) - INFO - Websocket connected
+2025-02-13 16:27:16,007 - Thread-37 (listener_loop) - INFO - Websocket connected
+2025-02-13 16:27:16,488 - ThreadPoolExecutor-0_2 - INFO - User 1057425736: initializing -> loading_page 
+2025-02-13 16:27:16,489 - ThreadPoolExecutor-0_0 - INFO - User 1057425736: page_loaded -> solving_captcha 
+2025-02-13 16:27:18,082 - ThreadPoolExecutor-0_1 - INFO - CAPTCHA solution attempt: 4034
+2025-02-13 16:27:18,082 - ThreadPoolExecutor-0_1 - INFO - User 1026200616: solving_captcha -> filling_form 
+2025-02-13 16:27:18,607 - ThreadPoolExecutor-0_1 - INFO - User 1026200616: filling_form -> submitting 
+2025-02-13 16:27:18,635 - ThreadPoolExecutor-0_1 - INFO - User 1026200616: submitting -> waiting_response 
+2025-02-13 16:27:20,983 - ThreadPoolExecutor-0_0 - INFO - CAPTCHA solution attempt: 9783
+2025-02-13 16:27:20,983 - ThreadPoolExecutor-0_0 - INFO - User 1057425736: solving_captcha -> filling_form 
+2025-02-13 16:27:21,801 - ThreadPoolExecutor-0_0 - INFO - User 1057425736: filling_form -> submitting 
+2025-02-13 16:27:21,822 - ThreadPoolExecutor-0_0 - INFO - User 1057425736: submitting -> waiting_response 
+2025-02-13 16:27:22,998 - ThreadPoolExecutor-0_1 - INFO - User 1026200616: waiting_response -> retry : Authentication Failed: Sorry, the registered number is not activated please visit Absher self-service kiosk device or through the General Directorate of Passport or Civil affairs offices .
+2025-02-13 16:27:23,001 - ThreadPoolExecutor-0_1 - INFO - Starting attempt 3/3
+2025-02-13 16:27:23,002 - ThreadPoolExecutor-0_1 - INFO - User 1026200616: retry -> loading_page 
+2025-02-13 16:27:49,134 - ThreadPoolExecutor-0_2 - ERROR - Error during attempt 1: Document did not become ready within 30 seconds
+2025-02-13 16:27:49,135 - ThreadPoolExecutor-0_2 - INFO - User 1057425736: loading_page -> retry : Will retry after cooldown
+2025-02-13 16:27:51,220 - ThreadPoolExecutor-0_2 - INFO - Starting attempt 2/3
+2025-02-13 16:27:51,220 - ThreadPoolExecutor-0_2 - INFO - User 1057425736: retry -> loading_page 
+2025-02-13 16:28:18,200 - ThreadPoolExecutor-0_2 - INFO - User 1057425736: loading_page -> page_loaded 
+2025-02-13 16:29:05,412 - ThreadPoolExecutor-0_2 - INFO - User 1057425736: page_loaded -> solving_captcha 
+2025-02-13 16:29:05,413 - ThreadPoolExecutor-0_2 - ERROR - Error during attempt 2: 'NoneType' object has no attribute 'save_screenshot'
+2025-02-13 16:29:05,413 - ThreadPoolExecutor-0_2 - INFO - User 1057425736: solving_captcha -> retry : Will retry after cooldown
+2025-02-13 16:29:07,419 - ThreadPoolExecutor-0_2 - INFO - Starting attempt 3/3
+2025-02-13 16:29:07,420 - ThreadPoolExecutor-0_2 - INFO - User 1057425736: retry -> loading_page 
+2025-02-13 16:29:08,962 - ThreadPoolExecutor-0_2 - INFO - User 1057425736: loading_page -> page_loaded 
+2025-02-13 16:29:09,429 - ThreadPoolExecutor-0_2 - INFO - User 1057425736: page_loaded -> solving_captcha 
+2025-02-13 16:29:09,805 - ThreadPoolExecutor-0_2 - INFO - CAPTCHA solution attempt: 8726
+2025-02-13 16:29:09,806 - ThreadPoolExecutor-0_2 - INFO - User 1057425736: solving_captcha -> filling_form 
+2025-02-13 16:29:10,376 - ThreadPoolExecutor-0_2 - INFO - User 1057425736: filling_form -> submitting 
+2025-02-13 16:29:10,396 - ThreadPoolExecutor-0_2 - INFO - User 1057425736: submitting -> waiting_response 
+2025-02-13 16:29:14,276 - ThreadPoolExecutor-0_2 - INFO - User 1057425736: waiting_response -> success : Authentication Successful: Security validation passed
+2025-02-13 16:29:14,845 - ThreadPoolExecutor-0_2 - INFO - Browser session closed
+2025-02-13 16:29:14,845 - ThreadPoolExecutor-0_2 - INFO - Final state: success
+2025-02-13 16:29:14,845 - ThreadPoolExecutor-0_2 - INFO - Starting attempt 1/3
+2025-02-13 16:29:15,644 - Thread-38 (listener_loop) - INFO - Websocket connected
+2025-02-13 16:29:15,723 - Thread-39 (listener_loop) - INFO - Websocket connected
+2025-02-13 16:29:16,137 - ThreadPoolExecutor-0_2 - INFO - User 1057855700: initializing -> loading_page 
+2025-02-13 16:29:24,640 - ThreadPoolExecutor-0_2 - INFO - User 1057855700: loading_page -> page_loaded 
+2025-02-13 16:29:25,129 - ThreadPoolExecutor-0_2 - INFO - User 1057855700: page_loaded -> solving_captcha 
+2025-02-13 16:29:25,479 - ThreadPoolExecutor-0_2 - INFO - CAPTCHA solution attempt: 9377
+2025-02-13 16:29:25,479 - ThreadPoolExecutor-0_2 - INFO - User 1057855700: solving_captcha -> filling_form 
+2025-02-13 16:29:25,890 - ThreadPoolExecutor-0_2 - INFO - User 1057855700: filling_form -> submitting 
+2025-02-13 16:29:25,913 - ThreadPoolExecutor-0_2 - INFO - User 1057855700: submitting -> waiting_response 
+2025-02-13 16:29:29,185 - ThreadPoolExecutor-0_2 - INFO - User 1057855700: waiting_response -> retry : Authentication Failed: Sorry, the registered number is not activated please visit Absher self-service kiosk device or through the General Directorate of Passport or Civil affairs offices .
+2025-02-13 16:29:29,189 - ThreadPoolExecutor-0_2 - INFO - Starting attempt 2/3
+2025-02-13 16:29:29,189 - ThreadPoolExecutor-0_2 - INFO - User 1057855700: retry -> loading_page 
+2025-02-13 16:29:31,412 - ThreadPoolExecutor-0_2 - INFO - User 1057855700: loading_page -> page_loaded 
+2025-02-13 16:29:32,088 - ThreadPoolExecutor-0_2 - INFO - User 1057855700: page_loaded -> solving_captcha 
+2025-02-13 16:29:32,476 - ThreadPoolExecutor-0_2 - INFO - CAPTCHA solution attempt: 4911
+2025-02-13 16:29:32,477 - ThreadPoolExecutor-0_2 - INFO - User 1057855700: solving_captcha -> filling_form 
+2025-02-13 16:29:33,093 - ThreadPoolExecutor-0_2 - INFO - User 1057855700: filling_form -> submitting 
+2025-02-13 16:29:33,114 - ThreadPoolExecutor-0_2 - INFO - User 1057855700: submitting -> waiting_response 
+2025-02-13 16:29:36,935 - ThreadPoolExecutor-0_2 - INFO - User 1057855700: waiting_response -> retry : Authentication Failed: Sorry, the registered number is not activated please visit Absher self-service kiosk device or through the General Directorate of Passport or Civil affairs offices .
+2025-02-13 16:29:36,939 - ThreadPoolExecutor-0_2 - INFO - Starting attempt 3/3
+2025-02-13 16:29:36,939 - ThreadPoolExecutor-0_2 - INFO - User 1057855700: retry -> loading_page 
+2025-02-13 16:29:38,315 - ThreadPoolExecutor-0_2 - INFO - User 1057855700: loading_page -> page_loaded 
+2025-02-13 16:29:39,047 - ThreadPoolExecutor-0_2 - INFO - User 1057855700: page_loaded -> solving_captcha 
+2025-02-13 16:29:39,392 - ThreadPoolExecutor-0_2 - INFO - CAPTCHA solution attempt: 1016
+2025-02-13 16:29:39,392 - ThreadPoolExecutor-0_2 - INFO - User 1057855700: solving_captcha -> filling_form 
+2025-02-13 16:29:39,949 - ThreadPoolExecutor-0_2 - INFO - User 1057855700: filling_form -> submitting 
+2025-02-13 16:29:39,972 - ThreadPoolExecutor-0_2 - INFO - User 1057855700: submitting -> waiting_response 
+2025-02-13 16:29:43,657 - ThreadPoolExecutor-0_2 - INFO - User 1057855700: waiting_response -> failed : Authentication Failed: Sorry, the registered number is not activated please visit Absher self-service kiosk device or through the General Directorate of Passport or Civil affairs offices .
+2025-02-13 16:29:44,365 - ThreadPoolExecutor-0_2 - INFO - Browser session closed
+2025-02-13 16:29:44,365 - ThreadPoolExecutor-0_2 - INFO - Final state: failed
+2025-02-13 16:29:44,365 - ThreadPoolExecutor-0_2 - INFO - Starting attempt 1/3
+2025-02-13 16:29:45,180 - Thread-40 (listener_loop) - INFO - Websocket connected
+2025-02-13 16:29:45,257 - Thread-41 (listener_loop) - INFO - Websocket connected
+2025-02-13 16:29:45,643 - ThreadPoolExecutor-0_2 - INFO - User 1057855700: initializing -> loading_page 
+2025-02-13 16:29:52,951 - ThreadPoolExecutor-0_2 - INFO - User 1057855700: loading_page -> page_loaded 
+2025-02-13 16:29:53,408 - ThreadPoolExecutor-0_2 - INFO - User 1057855700: page_loaded -> solving_captcha 
+2025-02-13 16:29:53,767 - ThreadPoolExecutor-0_2 - INFO - CAPTCHA solution attempt: 9454
+2025-02-13 16:29:53,768 - ThreadPoolExecutor-0_2 - INFO - User 1057855700: solving_captcha -> filling_form 
+2025-02-13 16:29:54,235 - ThreadPoolExecutor-0_2 - INFO - User 1057855700: filling_form -> submitting 
+2025-02-13 16:29:54,273 - ThreadPoolExecutor-0_2 - INFO - User 1057855700: submitting -> waiting_response 
+2025-02-13 16:29:58,982 - ThreadPoolExecutor-0_2 - INFO - User 1057855700: waiting_response -> success : Authentication Successful: Security validation passed
+2025-02-13 16:29:59,688 - ThreadPoolExecutor-0_2 - INFO - Browser session closed
+2025-02-13 16:29:59,689 - ThreadPoolExecutor-0_2 - INFO - Final state: success
+2025-02-13 16:29:59,689 - ThreadPoolExecutor-0_2 - INFO - Starting attempt 1/3
+2025-02-13 16:30:00,572 - Thread-42 (listener_loop) - INFO - Websocket connected
+2025-02-13 16:30:00,676 - Thread-43 (listener_loop) - INFO - Websocket connected
+2025-02-13 16:30:01,057 - ThreadPoolExecutor-0_2 - INFO - User 1058742998: initializing -> loading_page 
+2025-02-13 16:30:07,379 - ThreadPoolExecutor-0_2 - INFO - User 1058742998: loading_page -> page_loaded 
+2025-02-13 16:30:07,846 - ThreadPoolExecutor-0_2 - INFO - User 1058742998: page_loaded -> solving_captcha 
+2025-02-13 16:30:08,198 - ThreadPoolExecutor-0_2 - INFO - CAPTCHA solution attempt: 2900
+2025-02-13 16:30:08,199 - ThreadPoolExecutor-0_2 - INFO - User 1058742998: solving_captcha -> filling_form 
+2025-02-13 16:30:08,664 - ThreadPoolExecutor-0_2 - INFO - User 1058742998: filling_form -> submitting 
+2025-02-13 16:30:08,691 - ThreadPoolExecutor-0_2 - INFO - User 1058742998: submitting -> waiting_response 
+2025-02-13 16:30:14,420 - ThreadPoolExecutor-0_2 - INFO - User 1058742998: waiting_response -> retry : Authentication Failed: Sorry, the registered number is not activated please visit Absher self-service kiosk device or through the General Directorate of Passport or Civil affairs offices .
+2025-02-13 16:30:14,423 - ThreadPoolExecutor-0_2 - INFO - Starting attempt 2/3
+2025-02-13 16:30:14,423 - ThreadPoolExecutor-0_2 - INFO - User 1058742998: retry -> loading_page 
+2025-02-13 16:30:16,714 - ThreadPoolExecutor-0_2 - INFO - User 1058742998: loading_page -> page_loaded 
+2025-02-13 16:30:17,450 - ThreadPoolExecutor-0_2 - INFO - User 1058742998: page_loaded -> solving_captcha 
+2025-02-13 16:30:17,804 - ThreadPoolExecutor-0_2 - INFO - CAPTCHA solution attempt: 4487
+2025-02-13 16:30:17,804 - ThreadPoolExecutor-0_2 - INFO - User 1058742998: solving_captcha -> filling_form 
+2025-02-13 16:30:18,356 - ThreadPoolExecutor-0_2 - INFO - User 1058742998: filling_form -> submitting 
+2025-02-13 16:30:18,377 - ThreadPoolExecutor-0_2 - INFO - User 1058742998: submitting -> waiting_response 
+2025-02-13 16:30:22,039 - ThreadPoolExecutor-0_2 - INFO - User 1058742998: waiting_response -> retry : Authentication Failed: Sorry, the registered number is not activated please visit Absher self-service kiosk device or through the General Directorate of Passport or Civil affairs offices .
+2025-02-13 16:30:22,043 - ThreadPoolExecutor-0_2 - INFO - Starting attempt 3/3
+2025-02-13 16:30:22,043 - ThreadPoolExecutor-0_2 - INFO - User 1058742998: retry -> loading_page 
+2025-02-13 16:30:23,615 - ThreadPoolExecutor-0_2 - INFO - User 1058742998: loading_page -> page_loaded 
+2025-02-13 16:30:24,317 - ThreadPoolExecutor-0_2 - INFO - User 1058742998: page_loaded -> solving_captcha 
+2025-02-13 16:30:24,671 - ThreadPoolExecutor-0_2 - INFO - CAPTCHA solution attempt: 2403
+2025-02-13 16:30:24,671 - ThreadPoolExecutor-0_2 - INFO - User 1058742998: solving_captcha -> filling_form 
+2025-02-13 16:30:25,227 - ThreadPoolExecutor-0_2 - INFO - User 1058742998: filling_form -> submitting 
+2025-02-13 16:30:25,253 - ThreadPoolExecutor-0_2 - INFO - User 1058742998: submitting -> waiting_response 
+2025-02-13 16:30:28,947 - ThreadPoolExecutor-0_2 - INFO - User 1058742998: waiting_response -> failed : Authentication Failed: Sorry, the registered number is not activated please visit Absher self-service kiosk device or through the General Directorate of Passport or Civil affairs offices .
+2025-02-13 16:30:29,651 - ThreadPoolExecutor-0_2 - INFO - Browser session closed
+2025-02-13 16:30:29,651 - ThreadPoolExecutor-0_2 - INFO - Final state: failed
+2025-02-13 16:30:29,651 - ThreadPoolExecutor-0_2 - INFO - Starting attempt 1/3
+2025-02-13 16:30:30,473 - Thread-44 (listener_loop) - INFO - Websocket connected
+2025-02-13 16:30:30,559 - Thread-45 (listener_loop) - INFO - Websocket connected
+2025-02-13 16:30:30,951 - ThreadPoolExecutor-0_2 - INFO - User 1059691889: initializing -> loading_page 
+2025-02-13 16:30:37,622 - ThreadPoolExecutor-0_2 - INFO - User 1059691889: loading_page -> page_loaded 
+2025-02-13 16:30:38,101 - ThreadPoolExecutor-0_2 - INFO - User 1059691889: page_loaded -> solving_captcha 
+2025-02-13 16:30:38,769 - ThreadPoolExecutor-0_2 - INFO - CAPTCHA solution attempt: 1715
+2025-02-13 16:30:38,769 - ThreadPoolExecutor-0_2 - INFO - User 1059691889: solving_captcha -> filling_form 
+2025-02-13 16:30:39,188 - ThreadPoolExecutor-0_2 - INFO - User 1059691889: filling_form -> submitting 
+2025-02-13 16:30:39,237 - ThreadPoolExecutor-0_2 - INFO - User 1059691889: submitting -> waiting_response 
+2025-02-13 16:30:42,021 - ThreadPoolExecutor-0_0 - ERROR - Error during attempt 3: Failed to check submission result: Response not received
+2025-02-13 16:30:42,021 - ThreadPoolExecutor-0_0 - INFO - User 1057425736: waiting_response -> error : Error during attempt 3: Failed to check submission result: Response not received
+2025-02-13 16:30:42,510 - ThreadPoolExecutor-0_0 - INFO - Browser session closed
+2025-02-13 16:30:42,511 - ThreadPoolExecutor-0_0 - INFO - Final state: error
+2025-02-13 16:30:42,827 - ThreadPoolExecutor-0_2 - INFO - User 1059691889: waiting_response -> retry : Authentication Failed: Sorry, the registered number is not activated please visit Absher self-service kiosk device or through the General Directorate of Passport or Civil affairs offices .
+2025-02-13 16:30:42,829 - ThreadPoolExecutor-0_2 - INFO - Starting attempt 2/3
+2025-02-13 16:30:42,830 - ThreadPoolExecutor-0_2 - INFO - User 1059691889: retry -> loading_page 
+2025-02-13 16:30:43,002 - ThreadPoolExecutor-0_1 - ERROR - Error during attempt 3: Response not received
+2025-02-13 16:30:43,003 - ThreadPoolExecutor-0_1 - INFO - User 1026200616: loading_page -> error : Error during attempt 3: Response not received
+2025-02-13 16:30:43,430 - ThreadPoolExecutor-0_1 - INFO - Browser session closed
+2025-02-13 16:30:43,430 - ThreadPoolExecutor-0_1 - INFO - Final state: error
+2025-02-13 16:30:44,525 - ThreadPoolExecutor-0_2 - INFO - User 1059691889: loading_page -> page_loaded 
+2025-02-13 16:30:45,435 - ThreadPoolExecutor-0_2 - INFO - User 1059691889: page_loaded -> solving_captcha 
+2025-02-13 16:30:45,963 - ThreadPoolExecutor-0_2 - INFO - CAPTCHA solution attempt: 5542
+2025-02-13 16:30:45,963 - ThreadPoolExecutor-0_2 - INFO - User 1059691889: solving_captcha -> filling_form 
+2025-02-13 16:30:46,423 - ThreadPoolExecutor-0_2 - INFO - User 1059691889: filling_form -> submitting 
+2025-02-13 16:30:46,443 - ThreadPoolExecutor-0_2 - INFO - User 1059691889: submitting -> waiting_response 
+2025-02-13 16:30:50,032 - ThreadPoolExecutor-0_2 - INFO - User 1059691889: waiting_response -> retry : Authentication Failed: Sorry, the registered number is not activated please visit Absher self-service kiosk device or through the General Directorate of Passport or Civil affairs offices .
+2025-02-13 16:30:50,035 - ThreadPoolExecutor-0_2 - INFO - Starting attempt 3/3
+2025-02-13 16:30:50,036 - ThreadPoolExecutor-0_2 - INFO - User 1059691889: retry -> loading_page 
+2025-02-13 16:30:51,882 - ThreadPoolExecutor-0_2 - INFO - User 1059691889: loading_page -> page_loaded 
+2025-02-13 16:30:52,762 - ThreadPoolExecutor-0_2 - INFO - User 1059691889: page_loaded -> solving_captcha 
+2025-02-13 16:30:53,136 - ThreadPoolExecutor-0_2 - INFO - CAPTCHA solution attempt: 7115
+2025-02-13 16:30:53,137 - ThreadPoolExecutor-0_2 - INFO - User 1059691889: solving_captcha -> filling_form 
+2025-02-13 16:30:53,633 - ThreadPoolExecutor-0_2 - INFO - User 1059691889: filling_form -> submitting 
+2025-02-13 16:30:53,655 - ThreadPoolExecutor-0_2 - INFO - User 1059691889: submitting -> waiting_response 
+2025-02-13 16:30:57,980 - ThreadPoolExecutor-0_2 - INFO - User 1059691889: waiting_response -> failed : Authentication Failed: Sorry, the registered number is not activated please visit Absher self-service kiosk device or through the General Directorate of Passport or Civil affairs offices .
+2025-02-13 16:30:58,677 - ThreadPoolExecutor-0_2 - INFO - Browser session closed
+2025-02-13 16:30:58,678 - ThreadPoolExecutor-0_2 - INFO - Final state: failed
+2025-02-13 16:30:58,775 - MainThread - INFO - Results saved to demo_results.xlsx
+2025-02-13 16:30:58,775 - MainThread - INFO - Validation process completed
